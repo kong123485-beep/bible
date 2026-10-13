@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聖經與歷史研究中心 | Bible Study Hub</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Noto Serif TC -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Serif TC', sans-serif;
+        }
+        .serif-title {
+            font-family: 'Noto Serif TC', serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col justify-between">
+
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-amber-700 text-white p-2 rounded-xl shadow-sm">
+                    <i class="fa-solid fa-book-bible text-xl"></i>
+                </div>
+                <div>
+                    <span class="font-bold text-lg serif-title tracking-wide text-slate-900">聖經研究庫</span>
+                    <span class="hidden sm:inline-block text-xs bg-amber-100 text-amber-800 ml-2 px-2 py-0.5 rounded-full font-medium">GitHub Repository</span>
+                </div>
+            </div>
+            <nav class="flex items-center space-x-4">
+                <a href="https://github.com/kong13485-beep/bible" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-amber-700 transition-colors flex items-center space-x-1.5 text-sm font-medium">
+                    <i class="fa-brands fa-github text-lg"></i>
+                    <span class="hidden sm:inline">GitHub 專案</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section class="relative bg-gradient-to-br from-amber-900 via-stone-900 to-slate-900 text-white py-20 px-4 sm:px-6 lg:px-8 shadow-inner overflow-hidden">
+            <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d97706_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div class="max-w-4xl mx-auto text-center relative z-10">
+                <span class="inline-block bg-amber-700/50 border border-amber-500/30 text-amber-200 text-xs uppercase tracking-widest px-3 py-1 rounded-full mb-4 font-semibold">
+                    Biblical Studies & Historical Context
+                </span>
+                <h1 class="serif-title text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+                    探索聖經的歷史與先知足跡
+                </h1>
+                <p class="text-slate-300 text-lg sm:text-xl font-light max-w-2xl mx-auto leading-relaxed">
+                    歡迎來到聖經研究資源庫。本平台匯集了兩約之間的歷史脈絡、先知書背景以及大先知書的專題解析，助您深入神話語的時代背景。
+                </p>
+            </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="text-center mb-12">
+                <h2 class="serif-title text-2xl sm:text-3xl font-bold text-slate-900 mb-2">研究專題模組</h2>
+                <p class="text-slate-500 text-sm sm:text-base">點擊下方卡片進入各個詳細研究頁面</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Card 1: Intertestamental History -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-xl hover:border-amber-300 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                    <div class="p-6 sm:p-8">
+                        <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center text-xl mb-6 group-hover:bg-amber-700 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                        </div>
+                        <h3 class="serif-title text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 transition-colors">
+                            兩約之間歷史
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            探討舊約與新約之間四百年沈默期的政治、文化與宗教變遷，包含波斯、希臘與羅馬統治對猶太信仰的深遠影響。
+                        </p>
+                    </div>
+                    <div class="px-6 sm:px-8 pb-6 pt-0">
+                        <a href="intertestamental_history.html" class="inline-flex items-center space-x-2 text-amber-700 font-semibold text-sm group-hover:translate-x-1 transition-transform">
+                            <span>開始閱讀</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Prophets History -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-xl hover:border-amber-300 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                    <div class="p-6 sm:p-8">
+                        <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center text-xl mb-6 group-hover:bg-amber-700 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-landmark"></i>
+                        </div>
+                        <h3 class="serif-title text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 transition-colors">
+                            先知書歷史背景
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            深入列王紀與歷代志的歷史舞台，梳理南北國分裂、被擄與歸回時期的先知興起與時代使命。
+                        </p>
+                    </div>
+                    <div class="px-6 sm:px-8 pb-6 pt-0">
+                        <a href="prophets_history.html" class="inline-flex items-center space-x-2 text-amber-700 font-semibold text-sm group-hover:translate-x-1 transition-transform">
+                            <span>開始閱讀</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Major Prophets (handling filename typo major_prohets.html) -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-xl hover:border-amber-300 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                    <div class="p-6 sm:p-8">
+                        <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center text-xl mb-6 group-hover:bg-amber-700 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-scroll"></i>
+                        </div>
+                        <h3 class="serif-title text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-700 transition-colors">
+                            大先知書專題
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            綜覽以賽亞書、耶利米書、耶利米哀歌、以西結書與但以理書的核心信息、文學特色與其永恆的屬靈教訓。
+                        </p>
+                    </div>
+                    <div class="px-6 sm:px-8 pb-6 pt-0">
+                        <a href="major_prohets.html" class="inline-flex items-center space-x-2 text-amber-700 font-semibold text-sm group-hover:translate-x-1 transition-transform">
+                            <span>開始閱讀</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+            <div class="bg-amber-50/60 border border-amber-200 rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="space-y-2 text-center md:text-left">
+                    <h3 class="serif-title text-xl font-bold text-amber-900">關於此開源研究庫</h3>
+                    <p class="text-amber-800/80 text-sm max-w-xl">
+                        本專庫所有內容均透過 Git 進行版本控制與更新。歡迎透過 GitHub 參與修訂、提出建議或擴充聖經研究主題。
+                    </p>
+                </div>
+                <div>
+                    <a href="https://github.com/kong13485-beep/bible" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 bg-amber-700 hover:bg-amber-800 text-white font-medium px-6 py-3 rounded-xl shadow-sm transition-colors text-sm">
+                        <i class="fa-brands fa-github"></i>
+                        <span>訪問 GitHub 倉庫</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t border-slate-200 py-8 text-center text-sm text-slate-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>&copy; 2026 聖經研究庫 (Bible Study Repository). All rights reserved.</p>
+            <p class="text-xs text-slate-400">Designed with modern web standards for biblical scholarship.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
